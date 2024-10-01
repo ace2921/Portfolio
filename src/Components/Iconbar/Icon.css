@@ -40,8 +40,8 @@
     cursor: pointer;
   }
   .search-bar input{
-    margin-left: 600px;
-    width: 12%;
+    margin-left: 400px;
+    width: 15%;
     border: none;
     background-color: #E1E1E1;
   }

@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 12vh;
+    background-color: black;
+    padding-left: 104px;
+}
+.navbar img{
+    margin-top: 26px;
+    cursor: pointer;
+}

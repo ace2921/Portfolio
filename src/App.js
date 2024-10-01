@@ -1,9 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Icon from './Components/Iconbar/Icon';
 
 function App() {
   return (
-    <h1>Numetro</h1>
+    <Icon/>
   );
 }
 

@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.iconbar{
+    height: 5vh;
+    background-color: #E1E1E1;
+    display: flex;
+    padding-left: 104px;
+}
+.iconbar i{
+    margin-top: 10px;
+    font-size: 15px;
+    
+}
+.iconbar p{
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 23px;
+}

@@ -14,7 +14,10 @@ const Icon = () => {
         <FaFacebookSquare />
         <FaTwitter />
         <TfiYoutube />
-        <FaInstagram />
+        <a href="https://www.instagram.com/numetro/">
+          <FaInstagram />
+        </a>
+        
         <FaWhatsapp /> 
       </div>
       <div className="search-bar">

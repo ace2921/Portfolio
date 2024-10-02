@@ -1,0 +1,53 @@
+.hero{
+    height: 40vh;
+    width: 89%;
+    margin-left: 85px;
+    margin-right: 100px;
+}
+/* Style for the pagination dots */
+.swiper-pagination-bullet {
+    
+    width: 14px;
+    height: 14px;
+    background-color: #bbb; 
+    /* opacity: 1; */
+    margin: 0 6px; 
+    border-radius: 50%; 
+    transition: background-color 0.3s ease; 
+  }
+  
+  /* Style for the active pagination dot */
+  .swiper-pagination-bullet-active {
+    background-color: #ff6600; /* Change color of active dot */
+    transform: scale(1.2); /* Slightly enlarge the active dot */
+  }
+  
+  
+  .swiper-button-prev, .swiper-button-next {
+    color: #645c5c; 
+    /* padding: 10px; */
+    /* width: 45px;
+    height: 45px; */
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    border: none;
+    box-shadow: none;
+  }
+  
+
+  .swiper-button-prev:hover, .swiper-button-next:hover {
+    background-color: rgba(255, 102, 0, 0.8); 
+    transform: scale(1.1); 
+    color: rgba(255, 102, 0, 0.8);
+    box-shadow: none;
+    border: none; 
+  }
+  
+  
+  .swiper-button-prev {
+    left: 10px;
+  }
+  
+  .swiper-button-next {
+    right: 10px;
+  }
+  

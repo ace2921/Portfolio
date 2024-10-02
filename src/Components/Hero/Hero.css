@@ -1,10 +1,9 @@
 .hero{
     height: 60vh;
     width: 100%;
-    /* margin-left: 85px; */
-    /* margin-right: 100px; */
+
 }
-/* Style for the pagination dots */
+
 .swiper-pagination-bullet {
     
     width: 14px;
@@ -16,18 +15,15 @@
     transition: background-color 0.3s ease; 
   }
   
-  /* Style for the active pagination dot */
+  
   .swiper-pagination-bullet-active {
-    background-color: #ff6600; /* Change color of active dot */
-    transform: scale(1.2); /* Slightly enlarge the active dot */
+    background-color: #ff6600; 
+    transform: scale(1.2); 
   }
   
   
   .swiper-button-prev, .swiper-button-next {
     color: #645c5c; 
-    /* padding: 10px; */
-    /* width: 45px;
-    height: 45px; */
     transition: background-color 0.3s ease, transform 0.3s ease; 
     border: none;
     box-shadow: none;
@@ -35,7 +31,7 @@
   
 
   .swiper-button-prev:hover, .swiper-button-next:hover {
-    background-color: rgba(255, 102, 0, 0.8); 
+    
     transform: scale(1.1); 
     color: rgba(255, 102, 0, 0.8);
     box-shadow: none;
@@ -51,3 +47,6 @@
     right: 10px;
   }
   
+  hr{
+    margin-top: 50px;
+  }

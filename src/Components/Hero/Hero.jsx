@@ -30,7 +30,7 @@ const Hero = () => {
         <SwiperSlide><img src='/the-wild-bot.jpeg' alt="transformers" className='hero' /></SwiperSlide>
         <SwiperSlide><img src='/absolute-cinema.jpeg' alt="transformers" className='hero' /></SwiperSlide>
       </Swiper>
-    </div><hr /></>
+    </div></>
   );
 };
 

@@ -89,8 +89,8 @@
     padding: 10px;
   }
   
-  .swiper-button-next:hover, .swiper-button-prev:hover {
-    /* background-color: #ff5722; Hover color for buttons */
+
+  .movie_thumbnail{
+    background:url(https://numetro.co.za/wp-content/uploads/movies_images/poster/5289-1-4-3-1721308188.jpg);
+    background-repeat: no-repeat;
   }
-  
-  

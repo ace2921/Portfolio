@@ -10,6 +10,7 @@
     height: 12vh;
     background-color: black;
     padding-left: 104px;
+    z-index: 99999999999;
 }
 .navbar img{
     margin-top: 26px;

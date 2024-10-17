@@ -16,10 +16,10 @@ const Option = () => {
             </div>
             <div className="choose">
             <MdOutlineLocalMovies />
-            <p>hjb</p>
+            <p>Find a movies</p>
             </div>
             <div className="choose">
-            <p>ycdgbx</p>
+            <p>Choose an experience</p>
             </div>
         </div></>
   )

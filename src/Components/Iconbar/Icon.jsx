@@ -11,14 +11,19 @@ const Icon = () => {
       <i className="fa fa-phone" aria-hidden="true"></i>
       <p>068 087 5965</p>
       <div className="socials-icons">
-        <FaFacebookSquare />
-        <FaTwitter />
-        <TfiYoutube />
+      <a href="https://www.facebook.com/numetro/">
+      <FaFacebookSquare />
+      </a>
+      <a href="https://twitter.com/numetro?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+      <FaTwitter />
+      </a>
+        <a href="https://www.youtube.com/@numetro">
+        <TfiYoutube /></a>
+        
         <a href="https://www.instagram.com/numetro/">
           <FaInstagram />
         </a>
-        
-        <FaWhatsapp /> 
+        <a href="0861 246 362."><FaWhatsapp /></a>
       </div>
       <div className="search-bar">
         <input type='search' placeholder='Find a movie'  />

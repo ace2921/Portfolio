@@ -1,0 +1,86 @@
+.footer{
+    height: 40vh;
+    background-color: black;
+    display: flex; 
+    align-items: center; 
+    padding-left: 100px;
+}
+.footer-icons{
+    /* border: 5px solid #fff; */
+    display: block; 
+    align-items: center; 
+}
+.footer-icons i{
+    /* margin-top: 7px; */
+    margin-right: 3px;
+    font-size: 17px;
+    color: orange;
+}
+
+
+   .footer-icons svg {
+    margin-right: 40px;
+    color: rgb(148, 144, 144);
+    font-size: 19px; 
+    
+  }
+  
+  .footer-icons p {
+    margin-right: 20px; 
+    font-weight: 600;
+    font-size: 20px;
+    color: #fff;
+  }
+  .footer-icons p:hover{
+    color: orange;
+  }
+
+  .footer-icons svg:hover {
+    color: orange;
+    cursor: pointer;
+  }
+.quick-links-section{
+    margin-left: 100px;
+}
+
+  span{
+    color:orange
+  }
+  .quick-links-section p{
+    color: #fff;
+    font-size: 15px;
+  }
+  .quick-links-section p:hover{
+    color: orange;
+  }
+
+  .movie-links-section{
+    margin-left: 200px;
+    display: grid;
+    align-items: center;
+}
+
+  span{
+    color:orange
+  }
+  .movie-links-section p{
+    color: #fff;
+    font-size: 15px;
+    display: grid;
+    align-items: center;
+  }
+  .movie-links-section p:hover{
+    color: orange;
+  }
+
+  .movie-links-section2 p{
+    color: #fff;
+    font-size: 15px;
+  }
+  .movie-links-section2 p:hover{
+    color: orange;
+  }
+  .movie-links-section2{
+    margin-left: 60px;
+    padding: 50px;
+}

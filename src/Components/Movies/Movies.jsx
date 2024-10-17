@@ -11,7 +11,6 @@ import 'swiper/css/navigation';
 import { Pagination, Navigation } from 'swiper/modules';
 
 const Movies = () => {
-  // Full array of movie objects with more details
   const movieData = [
     { id: 1, image: "5289-1-4-3-1721308188.jpg", title: "Deadpool & Wolverine", age: "16", genre: "Action, Comedy, Sci-fi" },
     { id: 2, image: "6097-1-2-3-1717594468.jpg", title: "Despicable Me 4", age: "PG", genre: "Adventure, Comedy, Family" },
@@ -38,7 +37,7 @@ const Movies = () => {
   ];
   return (
     <Swiper
-      slidesPerView={3}
+      slidesPerView={4}
       centeredSlides={true}
       spaceBetween={30}
       pagination={{ clickable: true }}
@@ -46,14 +45,17 @@ const Movies = () => {
       modules={[Pagination, Navigation]}
       className="mySwiper"
       breakpoints={{
-        640: {
+        430: {
           slidesPerView: 1,
         },
-        768: {
+        638: {
           slidesPerView: 2,
         },
-        1024: {
+        834: {
           slidesPerView: 3,
+        },
+        1038: {
+          slidesPerView: 4,
         },
       }}
     >

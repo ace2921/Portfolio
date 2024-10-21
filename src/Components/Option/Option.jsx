@@ -1,6 +1,7 @@
 import React from 'react'
 import './Option.css'
-import { MdOutlineLocalMovies } from "react-icons/md";
+import { HiOutlineFilm } from "react-icons/hi";
+
 import { FaLocationDot } from "react-icons/fa6";
 
 
@@ -15,7 +16,7 @@ const Option = () => {
             <p>Choose a cinema</p>
             </div>
             <div className="choose">
-            <MdOutlineLocalMovies />
+            <HiOutlineFilm />
             <p>Find a movies</p>
             </div>
             <div className="choose">

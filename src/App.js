@@ -1,19 +1,29 @@
 
 import './App.css';
-// import {BrowserRouter, Routes, Route} from 'react-router-dom'
-import Book from './Components/Book/Book';
-import Hero from './Components/Hero/Hero';
-import Icon from './Components/Iconbar/Icon';
-import Navbar from './Components/Navbar/Navbar';
-import Movies from './Components/Movies/Movies';
-import Option from './Components/Option/Option';
-import Footer from './Components/Footer/Footer';
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Home from './Pages/Home';
+import NowBooking from './Pages/NowBooking';
+import ShowingSoon from './Pages/ShowingSoon';
+import Prices from './Pages/Prices';
+import Cinemas from './Pages/Cinemas';
+import AboutUs from './Pages/AboutUs';
 
 
 function App() {
   return (
-    
-    <><Icon /><Navbar /><Hero/><Book/><Movies/><Option/><Footer/></>
+    <div>
+      <BrowserRouter>
+          <Routes>
+            <Route path='/home' index element = {<Home/>} />
+            <Route path='/now-booking'  element = {<NowBooking/>} />
+            <Route path='/showing-soon'  element = {<ShowingSoon/>} />
+            <Route path='/cinemas'  element = {<Cinemas/>} />
+            <Route path='/prices'  element = {<Prices/>} />
+            <Route path='/about'  element = {<AboutUs/>} />
+          </Routes>
+      </BrowserRouter>
+    </div>
+   
   );
 }
 

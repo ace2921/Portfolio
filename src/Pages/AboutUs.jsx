@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from '../Components/Navbar/Navbar';
 import Icon from '../Components/Iconbar/Icon';
+import Footer from '../Components/Footer/Footer'
 
 const Dropdown = ({ title, children }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -81,6 +82,7 @@ const AboutUs = () => {
           </p>
         </Dropdown>
       </div>
+      <Footer/>
     </div>
   );
 };

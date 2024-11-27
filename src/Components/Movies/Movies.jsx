@@ -6,9 +6,10 @@ import './Movies.css';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import 'swiper/css/autoplay'
 
 // Import required modules
-import { Pagination, Navigation } from 'swiper/modules';
+import { Pagination, Navigation, Autoplay } from 'swiper/modules';
 
 const Movies = () => {
   const movieData = [
@@ -37,12 +38,18 @@ const Movies = () => {
   ];
   return (
     <Swiper
-      slidesPerView={4}
+      slidesPerView={3}
       centeredSlides={true}
       spaceBetween={30}
       pagination={{ clickable: true }}
       navigation={true}
-      modules={[Pagination, Navigation]}
+      loop={true}
+      autoplay={{
+        delay: 0, 
+        disableOnInteraction: false, 
+      }}
+      speed={3000}
+      modules={[Pagination, Navigation,Autoplay]}
       className="mySwiper"
       breakpoints={{
         430: {

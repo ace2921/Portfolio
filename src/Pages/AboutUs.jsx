@@ -53,27 +53,42 @@ const AboutUs = () => {
     <div>
       <Icon />
       <Navbar />
-      <div style={{ margin: '20px' }}>
+      <div style={{ 
+        margin: '20px',
+        paddingBottom: '196px'
+       }}>
         <Dropdown title="Living in a Nu Metro World">
           <p>
             Beginning in February 1902, Nu Metro started as South Africa’s first cinema exhibitor. 
             120 years later, there are currently over 22 Nu Metro cinemas with 152 cinema screens 
             spread across cities in Southern Africa, including:
           </p>
-          <ul>
-            <li>Cape Town</li>
-            <li>Worcester</li>
-            <li>Port Elizabeth</li>
-            <li>Durban</li>
-            <li>Amanzimtoti</li>
-            <li>Bloemfontein</li>
-            <li>Johannesburg</li>
-            <li>Pretoria</li>
-            <li>Giyani</li>
-            <li>Welkom</li>
-            <li>Lusaka, Zambia</li>
-            <li>Maputo, Mozambique</li>
-          </ul>
+          <ul
+  style={{
+    display: "flex",
+    flexWrap: "wrap", 
+    alignItems: "center",
+    justifyContent: "center", 
+    padding: "10px",
+    gap: "15px", 
+    listStyleType: "none", 
+    margin: 0, 
+  }}
+>
+  <li>Cape Town</li>
+  <li>Worcester</li>
+  <li>Port Elizabeth</li>
+  <li>Durban</li>
+  <li>Amanzimtoti</li>
+  <li>Bloemfontein</li>
+  <li>Johannesburg</li>
+  <li>Pretoria</li>
+  <li>Giyani</li>
+  <li>Welkom</li>
+  <li>Lusaka, Zambia</li>
+  <li>Maputo, Mozambique</li>
+</ul>
+
           <p>
             The first Nu Metro cinemas to house all of our new experiences opened at the brand new 
             Cornubia Mall in Umhlanga Rocks in September 2017. Nu Metro has also opened new cinemas 

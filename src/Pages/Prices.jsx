@@ -39,12 +39,19 @@ const Prices = () => {
         style={{
           width: "100%",
           height: "230px",
+          marginTop: '50px',
           paddingLeft: "100px",
           paddingRight: "100px"
         }}
         />
 
-      <div className="price-matters">
+      <div className="price-matters" 
+      
+        style={{
+          marginLeft: '90px',
+          marginRight: '50px',
+          
+          }}>
         <p>
           Prices <span>Matters</span>
         </p>
@@ -66,12 +73,16 @@ const Prices = () => {
 
       <div>
         <button onClick={toggleDropdown} style={{
-          width:"100%",
+          width:"88%",
           textAlign: "left",
           backgroundColor:"orange",
           border:"none",
           height: "50px",
-          color: "white"
+          color: "white",
+          marginLeft: '90px',
+          marginRight: '50px',
+          marginBottom: '30px',
+
         }}>
           {isDropdownOpen ? 'Ticket Prices' : 'Ticket Prices'}
         </button>

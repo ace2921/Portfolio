@@ -35,7 +35,20 @@ const ShowingSoon = () => {
     <div>
       <Icon />
       <Navbar />
-      <p>Coming Soon</p>
+      <div
+        style={{ 
+          display: 'flex', 
+          justifyContent: 'center', 
+          alignItems: 'center', 
+          marginTop: "50px", 
+          marginLeft: "0", 
+          marginRight: "0", 
+          marginBottom: "0", 
+          fontWeight: 600,
+          fontSize: "43px"
+      }}>
+        <p>Coming Soon</p>
+      </div>
       <div 
         style={{ 
           display: 'grid', 

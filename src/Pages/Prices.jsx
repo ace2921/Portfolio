@@ -88,7 +88,15 @@ const Prices = () => {
         </button>
 
         {isDropdownOpen && (
-          <div>
+          <div 
+          style={{
+            width:"88%",
+            border:"none",
+            textColor: "white",
+            marginLeft: '90px',
+          
+  
+          }}>
             {cinemaPricing.map((item) => (
               <div key={item.format}>
                 <span>{item.format}</span> : <span>{item.price}</span>
